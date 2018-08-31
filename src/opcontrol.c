@@ -9,7 +9,7 @@
  * PROS contains FreeRTOS (http://www.freertos.org) whose source code may be
  * obtained from http://sourceforge.net/projects/freertos/files/ or on request.
  */
-
+//test test test
 #include "main.h"
 #define RIGHTF 1
 #define LEFTF 2
@@ -35,5 +35,5 @@
  */
 void operatorControl() {
 	motorSet(RIGHTF, 127);
-	
+
 }
