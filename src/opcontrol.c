@@ -11,6 +11,10 @@
  */
 
 #include "main.h"
+#define RIGHTF 1
+#define LEFTF 2
+#define RIGHTB 3
+#define LEFTB 4
 
 /*
  * Runs the user operator control code. This function will be started in its own task with the
@@ -30,7 +34,5 @@
  * This task should never exit; it should end with some kind of infinite loop, even if empty.
  */
 void operatorControl() {
-	while (1) {
-		delay(20);
-	}
+	motorSet(RIGHTF, 127);
 }
