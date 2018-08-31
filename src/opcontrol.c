@@ -15,7 +15,7 @@
 #define LEFTF 2
 #define RIGHTB 3
 #define LEFTB 4
-
+//DEEPTA TEST
 /*
  * Runs the user operator control code. This function will be started in its own task with the
  * default priority and stack size whenever the robot is enabled via the Field Management System
@@ -35,5 +35,5 @@
  */
 void operatorControl() {
 	motorSet(RIGHTF, 127);
-	
+
 }
